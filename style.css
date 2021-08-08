@@ -1,0 +1,42 @@
+body {
+    color: white;
+    text-align: center;
+    height: 100%;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    display: block;
+    max-width: 500px;
+    width: auto;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 20px;
+    margin: 20px auto;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover {
+    color: black;
+    background: white;
+}
+
+.avatar {
+    display: block;        
+    max-width: 120px;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+.name {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
